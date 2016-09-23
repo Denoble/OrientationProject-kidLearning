@@ -1,0 +1,121 @@
+body 
+{
+    font-family:Tahoma, new times roman;
+    font-size:12px;
+    margin-right:2%;
+    margin-left:1%;
+    border:1px dotted blue;
+    padding:;
+}
+
+h1
+{
+    font-size:25px;
+    color:#6F4242;
+}
+a:link,a:visited
+{
+    text-decoration:none;
+    color:Blue;
+}
+p
+{
+   
+   font-family:Times New Roman;
+   font-weight:;
+   
+}
+h3
+{
+word-spacing:12px;
+}
+a:hover
+{
+    color:Red;
+}
+.Header
+{
+    top: 0px;
+    left:0px;
+    position:absolute;
+    width:800px;
+    background-image:none;
+    background-repeat: repeat-x;
+}
+
+td{
+ 
+ border-top:2px light;boader 2px solid;
+ border-right:2px light;boader 2px solid;
+ border-top:2px light;boader 2px solid;
+ border-left:2px light;boader 2px solid;
+ margin-right:4px ;
+ border:3px dotted brown;
+}
+.Menu
+{
+    top:125px;
+    left:150px;
+    width:195px;
+    position:absolute;
+}
+.Content
+{
+    top:160px;
+    left:120px;
+    position:absolute;
+    width:300px;
+}
+.widelabel
+{
+    display:-moz-inline-block;
+    display:inline-block;
+    width:100px
+}
+.GridMain
+{
+border-right: gainsboro thin solid;
+border-top: gainsboro thin solid;
+border-left: gainsboro thin solid;
+border-bottom: gainsboro thin solid;
+background-color: #8c7853;
+width: 700px;
+}
+.GridRow
+{
+background-color: #FFFAFA;
+}
+.GridSelectedRow
+{
+ background-color: White;
+}
+.GridHeader
+{
+background-color:Silver;
+font-weight: bold;
+text-align: left;
+color:black
+}
+.ImageStyle
+{
+    top:155px;
+    right:15px;
+    width:300px;
+    position:absolute
+}
+h2
+{
+    color:#6F4242;
+}
+h3
+{
+    color:#6F4242;
+}
+    
+Textarea{
+ height:400;
+ width:500;
+ font:italic;
+ font-weight:bold;
+ font-size:28
+}

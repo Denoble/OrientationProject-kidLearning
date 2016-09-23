@@ -1,0 +1,120 @@
+<html>
+<head>
+<title >
+Kids Edutainment
+</title>
+<script type="text/javascript" src="mespeak.js">
+</script>
+  
+<script type="text/javascript">
+    meSpeak.loadConfig("mespeak_config.json");
+
+    meSpeak.loadVoice("voices/en/en.json");
+  
+    
+function loadVoice(id) {
+      
+ var fname="voices/"+id+".json";
+      
+ meSpeak.loadVoice(fname, voiceLoaded);
+    }
+  
+    
+function voiceLoaded(success, message) {
+
+      if (success) {
+
+        alert("Voice loaded: "+message+".");
+      }
+
+      else {
+        alert("Failed to load a voice: "+message);
+
+      }
+    }
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="property.css" />
+</head>
+<body style="">
+<div class="first" style="background-image:url('div.jpg');">
+<p>
+<h1 align=center><marquee><font color =brown face=italic>Hi kids do you</font> </marquee></h1></p><p>
+<h1><marquee><font color ="brown" face=italic>know you can learn and 
+</font> </marquee> </h1></p>
+<p>
+<h1 align=center><marquee><font color =brown face=italic>
+and still have fun!</font> </marquee></h1></p>
+
+<br><br><br></div>
+<hr size=3 width=90% >
+<h1 align=center><i><b> <a href="ujay.html" style="text-decoration: none;color:DimGray">Personal Hygien</a>
+</h1>
+<hr size=4 width="90%"><br>
+<table>
+<tr>
+<td width="125"  height="100" align = right valign="top" bgcolor="gray">
+ <p style="z-index:50;">
+</p>
+</td>
+<td width=100 style="background:;" align="right" valign="top" height="100">
+<p> </p>
+<form onsubmit="meSpeak.speak(txt.value, { amplitude:200, wordgap:0, pitch:50, speed:120 }); return false">
+
+<textarea name="txt" rows="4" cols="50" readonly>
+Hi,
+ I am Tom.
+ I wash my hands immediately
+ I come back from school or 
+ after playing with my 
+ friends. It makes me  
+ reduce germs infection. 
+</textarea>      
+ <input type="submit" value="READ TEXT!">
+  
+</form>
+  
+<form onsubmit="return false">
+    
+Voice: <select onchange="loadVoice(this.options[this.selectedIndex].value);">				
+<option value="en/en-us">en-us - English, US</option>
+						
+<option value="fi">fi - Finnish</option>
+			
+</select>
+</form>
+  
+</td>
+<td width="100"  height="100" align = right valign="top">
+<form onsubmit="return false">
+<p>
+<p style="z-index:50;">
+<img src="boyshand.jpg" align=right width="500"></p>
+</p>
+<p style="z-index:50;">
+<h3 align=center><i><b> <a href="childLearn.html" style="text-decoration: none;color:DimGray">Previous</a>   
+<a href="childLearn2.html" style="text-decoration: none;color:DimGray">Next</a></b> </i></h3>
+
+</form>
+</p>
+</td>
+<td width="140"  height="100" align = right valign="top" bgcolor="gray">
+ <p style="z-index:50;">
+</p>
+</td>
+</tr>
+</table>
+<table align="center">
+<tr>
+<td>
+ <p>
+<font color="DimGray">
+ copyright&copy 2013
+</font>
+</p>
+</td>
+</tr>
+</table>
+</body>
+</html>
